@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "width": 720,
+  "height": 1280,
+  "fps": 24,
+  "frames": 1440,
+  "duration_seconds": 60,
+  "3d_render_invocations": 0,
+  "source_3d_sha256_unchanged": {
+    "outputs/cinematic-camera/A-dramatic-10s.mp4": "052657c7cc4a3dacdc763e9e84c019f4a0a9c0fc6d3d94c9395d2f45a7813ca7",
+    "outputs/cinematic-camera/B-high-angle-5s.mp4": "f9b6e55957529e4b6778df384d80359c5258ef24849caaf524843c1cb3a17f44",
+    "outputs/cinematic-camera/C-low-pass-5s.mp4": "e85f192a710b7e10700ff772b1fb08c7e053d8995620ed65ebd75e12e3a7c66d"
+  },
+  "foreground_transform": {
+    "scale": [
+      720,
+      405
+    ],
+    "position": [
+      0,
+      432
+    ],
+    "source_crop": null
+  },
+  "unvoiced_showcase_seconds": [
+    36,
+    56
+  ],
+  "showcase_voice_max_amplitude": 0,
+  "audio_edits": [
+    {
+      "id": "01_hook",
+      "start_seconds": 0.15,
+      "duration_seconds": 9.488854166666666,
+      "tempo": 1,
+      "text": "这是《哈尔的移动城堡》里的军舰。几个提示词，就能生成模型和动画。制作 Skill 已开源，简介链接直接获取。"
+    },
+    {
+      "id": "02_reference",
+      "start_seconds": 10.15,
+      "duration_seconds": 4.575625,
+      "tempo": 1.0701403985507247,
+      "text": "先用参考截图整理外观，保留船首、分节翼和旧金属。"
+    },
+    {
+      "id": "03_orthographic",
+      "start_seconds": 15.15,
+      "duration_seconds": 4.596666666666667,
+      "tempo": 1.1462047101449275,
+      "text": "再画三视图和内部细节，统一船长、翼根和位置关系。"
+    },
+    {
+      "id": "05_blender",
+      "start_seconds": 20.15,
+      "duration_seconds": 5.4301875,
+      "tempo": 1,
+      "text": "进入 Blender，搭建飞船、花海和峡谷，加入飞行与炮火。"
+    },
+    {
+      "id": "06_proportions",
+      "start_seconds": 26.15,
+      "duration_seconds": 4.579833333333333,
+      "tempo": 1.0322826086956522,
+      "text": "按参考修正比例，再补装甲、铆钉和环境细节。"
+    },
+    {
+      "id": "08_camera",
+      "start_seconds": 31.15,
+      "duration_seconds": 4.473354166666667,
+      "tempo": 1,
+      "text": "最后先预览运镜，再渲染三个角度。看成片。"
+    },
+    {
+      "id": "12_cta",
+      "start_seconds": 56.15,
+      "duration_seconds": 3.2579375,
+      "tempo": 1,
+      "text": "如果喜欢我的视频，记得点赞、订阅！"
+    }
+  ],
+  "sha256": "83bf045ecb389a17d3b6f54536b7bc65fc9e130d392e53cf5f2b8daef0821235",
+  "bytes": 11070890,
+  "final_audio_lufs": -16.11,
+  "final_audio_true_peak_dbtp": -1.6,
+  "full_decode_exit_code": 0,
+  "contactsheet_sample_seconds": [
+    1,
+    8,
+    12,
+    17,
+    23,
+    28,
+    33,
+    39,
+    44,
+    48,
+    54,
+    58
+  ],
+  "metadata_description": "几个 Prompt，复刻《哈尔的移动城堡》军舰！ 60秒竖屏版｜720×1280｜24fps。\n制作 Skill 已开源：https://github.com/375432636/gpt6-blender-video-skill/blob/main/skills/reference-to-blender-video/SKILL.md\n完整 Prompt 与耗时：https://github.com/375432636/gpt6-blender-video-skill/blob/main/docs/prompts-and-timing.md"
+}

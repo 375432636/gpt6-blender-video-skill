@@ -10,6 +10,8 @@
 
 **[观看 / 下载完整视频](media/GPT6-3D-making-of.mp4)** · **[阅读 Skill](skills/reference-to-blender-video/SKILL.md)** · **[过程图片与提示词](docs/process.md)** · **[每步 Prompt 与耗时](docs/prompts-and-timing.md)**
 
+**新增：[60 秒竖屏版](media/GPT6-3D-making-of-vertical-60s.mp4)**，720×1280 / 24fps。保留五步 Prompt、实际耗时与克隆配音；36–56 秒为三个原有镜头的无解说展示。另附 [竖屏封面](media/cover-vertical-60s.png)、[字幕](media/subtitles.vertical.zh-CN.srt) 和 [发布描述](docs/video-description-vertical.md)。
+
 ## 安装 Skill
 
 将仓库中的 `skills/reference-to-blender-video` 目录复制到你的 Codex skills 目录。
@@ -34,6 +36,7 @@ Skill 包含建模与比例检查、动作和运镜、预览到正式渲染、�
 | 文件 | 规格 |
 | --- | --- |
 | [完整制作过程](media/GPT6-3D-making-of.mp4) | 104 秒，720p / 24fps，含解说 |
+| [竖屏制作过程](media/GPT6-3D-making-of-vertical-60s.mp4) | 60 秒，720×1280 / 24fps，含解说 |
 | [三镜头合集](media/three-camera-showcase-20s.mp4) | 20 秒，720p / 24fps，无解说 |
 | [主镜头](media/A-dramatic-10s.mp4) | 10 秒，720p / 24fps |
 | [高位俯冲](media/B-high-angle-5s.mp4) | 5 秒，720p / 24fps |
