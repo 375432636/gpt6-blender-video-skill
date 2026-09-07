@@ -4,7 +4,7 @@
 
 [![视频封面](media/cover.png)](media/GPT6-3D-making-of.mp4)
 
-95 秒制作过程视频，720p / 24fps，包含阶段图片、关键提示词、中文解说，以及完整的三个新镜头。
+104 秒制作过程视频，720p / 24fps，使用 MiniMax 克隆声音配音。开头 10 秒展示成片，中间保留阶段图片与关键提示词，片尾 20 秒完整展示三个已有镜头且无解说，最后加 4 秒点赞订阅。此次更新没有新增或重新渲染 3D 镜头。
 
 **[观看 / 下载完整视频](media/GPT6-3D-making-of.mp4)** · **[阅读 Skill](skills/reference-to-blender-video/SKILL.md)** · **[过程图片与提示词](docs/process.md)**
 
@@ -31,7 +31,7 @@ Skill 包含建模与比例检查、动作和运镜、预览到正式渲染、�
 
 | 文件 | 规格 |
 | --- | --- |
-| [完整制作过程](media/GPT6-3D-making-of.mp4) | 95 秒，720p / 24fps，含解说 |
+| [完整制作过程](media/GPT6-3D-making-of.mp4) | 104 秒，720p / 24fps，含解说 |
 | [三镜头合集](media/three-camera-showcase-20s.mp4) | 20 秒，720p / 24fps，无解说 |
 | [主镜头](media/A-dramatic-10s.mp4) | 10 秒，720p / 24fps |
 | [高位俯冲](media/B-high-angle-5s.mp4) | 5 秒，720p / 24fps |
@@ -52,12 +52,12 @@ Skill 包含建模与比例检查、动作和运镜、预览到正式渲染、�
 
 ## 检查与素材来源
 
-完整视频实际解码为 2280 帧，三个新镜头分别为 240 / 120 / 120 帧。可用 skill 附带的检查器复核：
+完整视频实际解码为 2496 帧。片尾 480 帧与既有三个镜头逐帧一致，成果展示区间的独立配音轨为静音。成片响度为 -16.04 LUFS，峰值为 -1.50 dBTP。可用 skill 附带的检查器复核：
 
 ```bash
-python skills/reference-to-blender-video/scripts/validate_video.py media/GPT6-3D-making-of.mp4 --width 1280 --height 720 --fps 24 --seconds 95 --require-audio
+python skills/reference-to-blender-video/scripts/validate_video.py media/GPT6-3D-making-of.mp4 --width 1280 --height 720 --fps 24 --seconds 104 --require-audio
 ```
 
 工具需要 Python 3 与 ffprobe。Blender 建模和剪辑还需要本机 Blender、FFmpeg、字体及适合所选方式的音频工具。具体路径由运行环境发现。
 
-本例模型和场景根据用户参考制作；岩壁使用 [Poly Haven Mountainside](https://polyhaven.com/a/mountainside) 的 CC0 扫描素材。中文解说由 macOS Tingting 合成，背景音由正弦波与过滤噪声合成。标题使用悬念表达，视频内容展示参考、反馈与多轮迭代。
+本例模型和场景根据用户参考制作；岩壁使用 [Poly Haven Mountainside](https://polyhaven.com/a/mountainside) 的 CC0 扫描素材。中文解说使用用户指定的 MiniMax 克隆音色合成，背景音由正弦波与过滤噪声合成。标题使用悬念表达，视频内容展示参考、反馈与多轮迭代。

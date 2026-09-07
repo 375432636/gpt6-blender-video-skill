@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "duration_seconds": 104,
+  "frames": 2496,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "3d_render_invocations": 0,
+  "result_showcase_seconds": [
+    80,
+    100
+  ],
+  "showcase_voice_stem_max_amplitude": 0,
+  "showcase_frames_pixel_identical": 480,
+  "final_audio_lufs": -16.04,
+  "final_audio_true_peak_dbfs": -1.5,
+  "sha256": "6f444a0c94fd2c0327dd358984b53f48cd4b93e97d7ea4e1d53a26fb880f37d0",
+  "bytes": 19944799
+}
