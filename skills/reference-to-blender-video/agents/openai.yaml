@@ -1,0 +1,4 @@
+interface:
+  display_name: "参考图到 Blender 视频"
+  short_description: "从参考图校准三维模型、设计运镜，并把真实过程与关键提示词剪成视频"
+  default_prompt: "使用 $reference-to-blender-video，根据我的参考图完成 Blender 模型、三视图和运镜动画，并整理成带过程图片与关键提示词的制作视频。"
