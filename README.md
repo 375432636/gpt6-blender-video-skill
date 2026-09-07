@@ -1,12 +1,14 @@
-# 3D 建模师要失业了？！
+# 几个 Prompt，复刻《哈尔的移动城堡》军舰！
 
-**简单几步，让 GPT6 帮你生成高精度 3D 模型和动画**
+**GPT6 建模动画全过程｜制作 Skill 已开源**
 
 [![视频封面](media/cover.png)](media/GPT6-3D-making-of.mp4)
 
-104 秒制作过程视频，720p / 24fps，使用 MiniMax 克隆声音配音。开头 10 秒展示成片，中间保留阶段图片与关键提示词，片尾 20 秒完整展示三个已有镜头且无解说，最后加 4 秒点赞订阅。此次更新没有新增或重新渲染 3D 镜头。
+用几组主 Prompt，让 GPT6 从参考图、Blender 建模到运镜动画，复刻《哈尔的移动城堡》里的军舰飞船。制作 Skill 已开源，并附上每步 Prompt 和可核对的耗时；实际过程包含反馈修改和计算等待。
 
-**[观看 / 下载完整视频](media/GPT6-3D-making-of.mp4)** · **[阅读 Skill](skills/reference-to-blender-video/SKILL.md)** · **[过程图片与提示词](docs/process.md)**
+104 秒制作过程视频，720p / 24fps，使用 MiniMax 克隆声音。开头 10 秒介绍作品来源和开源链接，中间五步展示 Prompt 与耗时，片尾 20 秒完整展示既有镜头且无解说，最后为点赞订阅。
+
+**[观看 / 下载完整视频](media/GPT6-3D-making-of.mp4)** · **[阅读 Skill](skills/reference-to-blender-video/SKILL.md)** · **[过程图片与提示词](docs/process.md)** · **[每步 Prompt 与耗时](docs/prompts-and-timing.md)**
 
 ## 安装 Skill
 
@@ -52,7 +54,7 @@ Skill 包含建模与比例检查、动作和运镜、预览到正式渲染、�
 
 ## 检查与素材来源
 
-完整视频实际解码为 2496 帧。片尾 480 帧与既有三个镜头逐帧一致，成果展示区间的独立配音轨为静音。成片响度为 -16.04 LUFS，峰值为 -1.50 dBTP。可用 skill 附带的检查器复核：
+完整视频实际解码为 2496 帧。片尾 480 帧与既有三个镜头逐帧一致，成果展示区间的独立配音轨为静音。成片响度为 -16.05 LUFS，峰值为 -1.44 dBTP。可用 skill 附带的检查器复核：
 
 ```bash
 python skills/reference-to-blender-video/scripts/validate_video.py media/GPT6-3D-making-of.mp4 --width 1280 --height 720 --fps 24 --seconds 104 --require-audio
